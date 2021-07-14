@@ -417,7 +417,7 @@ input[type='checkbox']:checked::after {
         margin-left: 10%;
     }
     .field {
-
+        flex-direction: row;
         justify-content: space-between;
         align-items: center;
         width: 100%;
