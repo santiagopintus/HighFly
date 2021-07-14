@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>High Fly Turism</title>
+</head>
+<body>
+    
+    <!--Start Header-->
+    <header class="header-home">
+        <!--Start Nav-->
+        <nav class="container">
+            <!--Logo-->
+            <a href="index.html" class="logo-parent">
+                <h2 class="logo logo-home">HF</h2>
+            </a>
+    
+            <img class="menu-toggler" id="menu-toggler" src="img/menu-toggler-pink.svg" alt="Toggler menu">
+            
+            <!--Links-->
+            <ul class="navigation nav-home" id="navLinks">
+                <li><a href="pages/blog.html">Blog</a></li>
+                <li><a href="index.html" class="active act-home">Home</a></li>
+                <li><a href="pages/reviews.html">Reviews</a></li>
+            </ul>
+        </nav>
+        <!--End Nav-->
+    </header> <!-- End header -->
+
+
+    <!--Start hero image-->
+    <div class="hero">
+        <div class="bg-hero bg-hero-index">
+            <!-- I add this background with CSS -->
+        </div>
+        <!--Title of the website-->
+        <div class="title container">
+            <div class="title-absolute">
+                <div class="title-container">
+                    <h1>High Fly</h1>
+                    <h2>Turism</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End hero banner-->
+
+
+    <!--Start main content-->
+    <main class="container">
+
+        <section>
+            <h2 class="page-title section-margin">Welcome!</h2>
+            
+            <div class="left-container">
+
+            <p>Hi! Welcome to the best plan-your-holidays platform! If you are here, it means you are looking for an <span class="bold">unforgettable</span> break.</p>
+
+            <p>We will teach you how to search for experiences <span class="bold">based on your preferences</span>. We know our customers' likes can be different. That's why we have such a big list of possible preferences. Feel free to contact us if you don't find your preference there.</p>
+
+            
+            
+            <form>
+                <h3 class="section-margin">Weather</h3>
+                <p>To begin, choose the weather you're expecting. You can choose between cold climes and tropical ones, from rainy places to dry-weather ones. Cold with snow or without it. Rainy-tropical cities or dry-tropical cities. What is your preference?</p>
+
+                <div class="options">
+
+                    <div class="field">
+                        <label for="weather">Weather:</label>
+                        <select id="weather">
+                            <option disabled selected>Select the weather</option>
+                            <option value="rainy">Mostly Rainy</option>
+                            <option value="sunny">Mostly Sunny</option>
+                            <option value="cloudy">Mostly Cloudy</option>
+                            <option value="windy">Mostly Windy</option>
+                        </select>
+                    </div>
+
+                    <div class="field">
+                        <label for="temperature">Temperature:</label>
+                        <select id="temperature">
+                            <option disabled selected>Select the temperature</option>
+                            <option value="hot">Hot (Avg 80.8 f)</option>
+                            <option value="templated">Template (Avg 71.6 f)</option>
+                            <option value="cold">Cold (Avg 50 f)</option>
+                            <option value="freezing">Freezing (Avg 35.6 f)</option>
+                        </select>
+                    </div>
+
+                    <div class="field">
+                        <label for="humidity">Humidity:</label>
+                        <select id="humidity">
+                            <option disabled selected>Select the humidity level</option>
+                            <option value="low">Low (Less than 40%)</option>
+                            <option value="medium">Medium (Between 40% and 60%)</option>
+                            <option value="high">High (More than 60%)</option>
+                        </select>
+                    </div>
+
+                </div>
+                
+
+                <h3 class="section-margin">Biomes</h3>
+                <p>Now, let us filter by biomes. You can choose from the most beautiful beaches to the most imponent mountains. You can look from deserts to jungles like the Amazonas Jungle. There are many more biomes to choose from. You can also leave your suggestion if you don't find a specific biome you'd like.</p>
+
+                <div class="options">
+                    <div class="field">
+                        <label for="biome">Biome:</label>
+                        <select id="biome">
+                            <option disabled selected>Select the biome</option>
+                            <option value="forest">Forest</option>
+                            <option value="tundra">Tundra</option>
+                            <option value="grassland">Grassland</option>
+                            <option value="freshwater">Freshwater</option>
+                            <option value="desert">Desert</option>
+                            <option value="city">City</option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <h3  class="section-margin">Activities</h3>
+                <p>A very special-recently-added feature is the search by activities. If you'd like to make alpinism, you won't see many beaches on the results page. You can choose mountaineering, rappelling, canoeing, kayaking, taking impressive hikes, surfing formidable waves, being the best in paintball, swimming with dolphins, diving into deep oceans, and much more activities. Of course, you can filter by price also.</p>
+
+                <div class="activities-container">
+                    <p>Activities:</p>
+                    <div class="activities">
+                        <div class="activity">
+                            <label for="mountaineering">Mountaineering</label>
+                            <input type="checkbox" id="mountaineering">
+                        </div>
+                        <div class="activity">
+                            <label for="rappelling">Rappelling</label>
+                            <input type="checkbox" id="rappelling">
+                        </div>
+                        <div class="activity">
+                            <label for="canoeing">Canoeing</label>
+                            <input type="checkbox" id="canoeing">
+                        </div>
+                        <div class="activity">
+                            <label for="kayaking">Kayaking</label>
+                            <input type="checkbox" id="kayaking">
+                        </div>
+                        <div class="activity">
+                            <label for="hiking">Hiking</label>
+                            <input type="checkbox" id="hiking">
+                        </div>
+                        <div class="activity">
+                            <label for="surfing">Surfing</label>
+                            <input type="checkbox" id="surfing">
+                        </div>
+                        <div class="activity">
+                            <label for="paintball">Paintball</label>
+                            <input type="checkbox" id="paintball">
+                        </div>
+                        <div class="activity">
+                            <label for="swimming">Swimming</label>
+                            <input type="checkbox" id="swimming">
+                        </div>
+                        <div class="activity">
+                            <label for="diving">Diving</label>
+                            <input type="checkbox" id="diving">
+                        </div>
+                        <div class="activity">
+                            <label for="skiing">Skiing</label>
+                            <input type="checkbox" id="skiing">
+                        </div>
+                        <div class="activity">
+                            <label for="snowboarding">Snowboarding</label>
+                            <input type="checkbox" id="snowboarding">
+                        </div>
+                        <div class="activity">
+                            <label for="biking">Mountain biking</label>
+                            <input type="checkbox" id="biking">
+                        </div>
+                        <div class="activity">
+                            <label for="fishing">Fishing</label>
+                            <input type="checkbox" id="fishing">
+                        </div>
+                        <div class="activity">
+                            <label for="trekking">Trekking</label>
+                            <input type="checkbox" id="trekking">
+                        </div> <!--Close Activity-->
+                    </div> <!--Close activities-->
+                </div> <!--Close activities-container-->
+
+                <div class="options">
+                    <div class="field">
+                        <label for="price">Max price:</label>
+                        <input id="price" type="number" placeholder="Write the maximum price for one activity" value="10">
+                    </div>
+                </div>
+                
+                <button type="submit" class="primary-button">Search</button>
+            </form>
+
+        </section>
+        
+        <!--Section that contains a banner-->
+        <div class="banner-image">
+            <img src="https://cdn.glitch.com/8ef18217-e675-4581-8b5a-a953532909f6%2Fhome2_text.jpg?v=1624651705878" alt="Image that says: Share your experience with the people you love.">
+        </div>
+    </main> 
+    <!--End main content-->
+
+
+
+
+    <!-- Footer starts -->
+    <footer>
+        <div class="footer-container container">
+            <nav>
+                <ul class="navigation nav-footer">
+                    <li><a href="pages/blog.html">Blog</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pages/reviews.html">Reviews</a></li>
+                    <li><a target="_blank" href="site-plan.html">Site Plan</a></li>
+                </ul>
+            </nav>
+            
+            <a href="index.html" class="logo-container">
+                <h2 class="logo logo-footer">HF</h2>
+            </a>
+            
+            <!-- Social media icons -->
+            <nav>
+                <ul class="navigation nav-footer nav-social">
+                    <!-- facebook -->
+                    <li><a target="_blank" href="https://www.facebook.com/"><img src="https://cdn.glitch.com/8ef18217-e675-4581-8b5a-a953532909f6%2Ffacebook.svg?v=1624653593086" alt="Logo Facebook"></a></li>
+                    <!-- Snapchat -->
+                    <li><a target="_blank" href="https://www.snapchat.com/l/es/"><img src="https://cdn.glitch.com/8ef18217-e675-4581-8b5a-a953532909f6%2Fsnapchat.svg?v=1624653593086" alt="Logo Snapchat"></a></li>
+                    <!-- Instagram -->
+                    <li><a target="_blank" href="https://www.instagram.com/"><img src="https://cdn.glitch.com/8ef18217-e675-4581-8b5a-a953532909f6%2Finstagram.svg?v=1624653593086" alt="Logo Instagram"></a></li>
+                </ul>
+            </nav>
+            
+            <p class="copyright">&copy; All rights reserved 2021 - Santiago Pintus</p>
+        </div>
+    </footer>
+
+    <!-- The scripts that make the nav toggler work -->
+    <script src="scripts.js"></script>
+</body>
+</html>

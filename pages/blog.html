@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <title>Blog - High Fly</title>
+</head>
+<body>
+    
+    <!--Start Header-->
+    <header class="header-secondary">
+        <!--Start Nav-->
+        <nav class="container">
+            <!--Logo-->
+            <a href="../index.html" class="logo-parent">
+                <h2 class="logo logo-secondary">HF</h2>
+            </a>
+    
+            <img class="menu-toggler" id="menu-toggler" src="../img/menu-toggler-light.svg" alt="Toggler menu">
+            
+            <!--Links-->
+            <ul class="navigation nav-secondary" id="navLinks">
+                <li><a href="blog.html" class="active act-secondary">Blog</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+            </ul>
+        </nav>
+        <!--End Nav-->
+    </header> <!-- End header -->
+
+    <!--Start hero image-->
+    <div class="hero">
+        <div class="bg-hero bg-hero-blog">
+            <!-- I added this background with CSS -->
+        </div>
+        <!--Title of the blog-->
+        <div class="title container">
+            <div class="title-absolute">
+                <h1>Blog</h1>
+            </div>
+        </div>
+    </div>
+    <!--End hero banner-->
+
+    <!--Start main content-->
+    <main class="container">
+
+        <!-- Introduction to the page -->
+        <section>
+            <h2 class="page-title section-margin">Hi!</h2>
+            
+            <div class="left-container">
+                <p>This blog is a pretty important part of our website.</p>
+                <p>Here, you can do a bunch of stuff, you can:</p>
+                <ul class="unordered-list">
+                    <li>Share your amazing experiences.</li>
+                    <li>Describe food, weather or costumes in the place you visited.</li>
+                    <li>Describe technical aspects of your trip.</li>
+                    <li>Give recomendations.</li>
+                    <li>Find help about a trip you wanna take.</li>
+                    <li>Know people around the globe.</li>
+                    <li>Share some photos.</li>
+                    <li>And much more!</li>
+                </ul>
+            </div>
+
+        </section>
+    
+        <!--Section that contains a banner-->
+        <div class="banner-image">
+            <img src="https://cdn.glitch.com/8ef18217-e675-4581-8b5a-a953532909f6%2Fblog2_text.jpg?v=1624651705650" alt="Image that says: Think of that amazing experience you had">
+        </div>
+
+        <!--Blog entry text area-->
+        <section class="blog-posting">
+            <h3>Did you think about it?</h3>
+            <p>Then, share your experience!</p>
+            <form class="blog-form">
+                <textarea name="blog_entry" id="blog_entry" 
+                    placeholder="Describe your experience here"></textarea>
+                <button type="submit" class="primary-button">Publish</button>
+            </form>
+        </section>
+
+        <!-- OPEN blog entries -->
+        <section class="blog-entries left-container">
+            <h2>Amazing experiences!</h2>
+            <!-- Open one blog entry -->
+            <article class="blog-entry">
+                <div class="pic-name-info">
+                    <img src="https://cdn.glitch.com/8ef18217-e675-4581-8b5a-a953532909f6%2Frsz_man1.jpg?v=1624652583544" alt="Profile Picture">
+                    <p class="person-name">Kendrick C. Stout</p>
+                </div>
+                <h3>Wonderful experience!</h3>
+                <p>
+                    I got to know Scotland thanks to High Fly Turism! Until now I 
+                    had never thought of traveling there. I visited beautiful 
+                    castles and mountains with amazing rivers. What a dream I 
+                    lived there!
+                </p>
+                
+                <div class="icons">
+
+                    <div class="icon">
+                        <img src="https://cdn.glitch.com/8ef18217-e675-4581-8b5a-a953532909f6%2Fheart_like.png?v=1624652300446" alt="heart icon">
+                        <p>56</p>
+                    </div>
+
+                    <div class="icon">
+                        <img src="https://cdn.glitch.com/8ef18217-e675-4581-8b5a-a953532909f6%2Fcomments.png?v=1624652300445" alt="comment icon">
+                        <p>21</p>
+                    </div> <!-- Close icon -->
+
+                </div> <!--Close icons-->
+
+            </article> <!-- Close blog entry-->
+
+            <!-- Open another blog entry -->
+            <article class="blog-entry">
+                <div class="pic-name-info">
+                    <img src="https://cdn.glitch.com/8ef18217-e675-4581-8b5a-a953532909f6%2Frsz_woman1.jpg?v=1624652588292" alt="Profile Picture">
+                    <p class="person-name">Brenna D. Campbell</p>
+                </div>
+                <h3>I need suggestions!</h3>
+                <p>
+                    Hi, Guys! I hope you’re doing great. I need some suggestions.</p>
+                <p>
+                    Where can my husband and I go to see the stars without light pollution? Thank you! 
+                </p>
+                
+                <div class="icons">
+
+                    <div class="icon">
+                        <img src="https://cdn.glitch.com/8ef18217-e675-4581-8b5a-a953532909f6%2Fheart_like.png?v=1624652300446" alt="heart icon">
+                        <p>30</p>
+                    </div>
+
+                    <div class="icon">
+                        <img src="https://cdn.glitch.com/8ef18217-e675-4581-8b5a-a953532909f6%2Fcomments.png?v=1624652300445" alt="comment icon">
+                        <p>46</p>
+                    </div> <!-- Close icon -->
+
+                </div> <!--Close icons-->
+
+            </article> <!-- Close blog entry-->
+
+            <button class="primary-button">View more</button>
+
+        </section> <!-- Close blog entries -->
+
+    </main> 
+    <!--End main content-->
+
+
+    <!-- Footer starts -->
+    <footer>
+        <div class="footer-container container">
+            <nav>
+                <ul class="navigation nav-footer">
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a target="_blank" href="../site-plan.html">Site Plan</a></li>
+                </ul>
+            </nav>
+            
+            <a href="index.html" class="logo-container">
+                <h2 class="logo logo-footer">HF</h2>
+            </a>
+            
+            <!-- Social media icons -->
+            <nav>
+                <ul class="navigation nav-footer nav-social">
+                    <!-- facebook -->
+                    <li><a target="_blank" href="https://www.facebook.com/"><img src="https://cdn.glitch.com/8ef18217-e675-4581-8b5a-a953532909f6%2Ffacebook.svg?v=1624653593086" alt="Logo Facebook"></a></li>
+                    <!-- Snapchat -->
+                    <li><a target="_blank" href="https://www.snapchat.com/l/es/"><img src="https://cdn.glitch.com/8ef18217-e675-4581-8b5a-a953532909f6%2Fsnapchat.svg?v=1624653593086" alt="Logo Snapchat"></a></li>
+                    <!-- Instagram -->
+                    <li><a target="_blank" href="https://www.instagram.com/"><img src="https://cdn.glitch.com/8ef18217-e675-4581-8b5a-a953532909f6%2Finstagram.svg?v=1624653593086" alt="Logo Instagram"></a></li>
+                </ul>
+            </nav>
+            
+            <p class="copyright">&copy; All rights reserved 2021 - Santiago Pintus</p>
+        </div>
+    </footer>
+
+    <!-- The scripts that make the nav toggler work -->
+    <script src="../scripts.js"></script>
+</body>
+</html>
